@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.fondo img {
+    width: 100%;
+    height: 60rem;
+    position: absolute;
+    z-index: 1;
+}
+header .envoltura {
+    margin: 4rem;
+    z-index: 3;
+    display: flex;
+}
+header {
+    display: flex;
+    position: relative;
+}
+header .logo  {
+    margin-top: rem;
+    z-index: 3;
+}
+header .space {
+    width: 60rem;
+}
+header nav {
+    color: white;
+    z-index: 3;
+}
+header .fondo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+}
+nav ul li {
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+    padding: 0.6rem;
+    font-weight: 600;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title .portada {
+    z-index: 3;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+.title .flecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+.hero .grid img{
+    width: 100%;
+}
+.hero .area .grid {
+    margin-top: 25rem;
+    z-index: 3;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.hero .grid .item-1 {
+    margin-left: 6rem;
+}
+.hero .grid .item-4 {
+    margin-left: 6rem;
+}
+.item-1 h3 {
+    font-size: 3rem;
+}
+.item-1 p {
+    margin-top: 1rem;
+}
+div .negrita {
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.item-1 {
+    grid-row: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item-3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.item-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item-4 h3 {
+    font-size: 3rem;
+}
+.item-4 p {
+    margin-top: 1rem;
+}
+div .negrita {
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.item-6 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.info-img {
+    width: 20rem;
+    z-index: 3;
+    position: relative;
+    margin-top: -12rem;
+    margin-left: 12rem;
+}
+.info-img h3 {
+    display: flex;
+    justify-content: center;
+}
+.info-img p {
+    margin-top: 1rem;
+}
+.info-img-2 {
+    width: 20rem;
+    z-index: 3;
+    position: relative;
+    margin-top: -12rem;
+    margin-left: 12rem;
+}
+.info-img-2 h3 {
+    display: flex;
+    justify-content: center;
+}
+.info-img-2 p {
+    margin-top: 1rem;
+}
+
+.testi .grid-testi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.testi .title-testi {
+    margin-top: 4rem;
+    font-weight: 200;
+    color: gray;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.testi .grid-testi {
+    margin-top: 4rem;
+    gap: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item .profile img{
+    border-radius: 100%;
+    width: 4rem;
+    
+}
+.item .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-testi .item  .relato {
+    margin-top: 3rem;
+}
+
+.grid-testi .item .name {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-testi .item .name .enmarcado {
+    font-weight: 600;
+}
+.fotos-finales {
+    width: 100%;
+    margin-top: 6rem;
+}
+.container-fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.container-fotos img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(131, 216, 211);
+    width: 100%;
+    height: 16rem;
+}
+.content-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-footer .logo img {
+    margin-top: 6rem;
+}
+
+.content-footer .contact {
+    margin-top: 2rem;
+}
+
+.content-footer .contact ul li {
+    list-style-type: none;
+}
+.content-footer .contact ul {
+    display: flex;
+    gap: 4rem;
+    color: white;
+}
+
+section .grid-testi {
+    width: 100%;
+    height: auto;
+}
+
+article div .item {
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        min-max(150px, 1fr)
+    );
+}
